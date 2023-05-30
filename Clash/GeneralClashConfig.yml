@@ -118,7 +118,7 @@ dns:
 # 代理组
 # 下面这3个不要引到订阅里去 要不会出错
 # Will be ignored after profile selection
-#proxies:
+proxies:
 #  - name: Shadowsocks
 #    type: socks5
 #    server: 127.0.0.1
@@ -130,7 +130,7 @@ dns:
 #      - Shadowsocks
 #rules:
 #  - 'MATCH,DIRECT'
-
+ - {name: 🇸🇬 Nat Sg, server: 171.229.196.135, port: 80, type: vmess, uuid: 17f23423-4c3e-447c-892a-acd40ad0c68c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zsy520.eu.org}}, udp: true}
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 3000
